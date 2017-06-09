@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_large"
+    tools:context=".fragments.LoginConfirmFragment">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large"
+        android:src="@drawable/ic_carpwesar_logo_small" />
+
+    <ImageView
+        android:id="@+id/ic_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:src="@drawable/ic_email_24dp" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMTextView
+        android:id="@+id/tv_confirm_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_toRightOf="@id/ic_email"
+        android:text="@string/email" />
+
+    <ImageView
+        android:id="@+id/ic_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_email"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:src="@drawable/ic_password_24dp" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMTextView
+        android:id="@+id/tv_confirm_password"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_email"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:layout_toRightOf="@id/ic_email"
+        android:text="@string/password" />
+
+</RelativeLayout>

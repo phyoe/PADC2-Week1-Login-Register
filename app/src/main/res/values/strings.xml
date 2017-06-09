@@ -1,3 +1,41 @@
 <resources>
-    <string name="app_name">PADC2-Week1-Login-Register</string>
+    <string name="app_name">CarPweSar</string>
+
+    <!-- Left Menu -->
+    <string name="home_screen_title">PADC2.0 - ကားပြဲစား</string>
+
+    <string name="home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_register">၀င္ရန္ / အေကာင္အသစ္ဖြင့္ရန္</string>
+    <string name="login">၀င္ရန္</string>
+    <string name="register">အေကာင္အသစ္ဖြင့္ရန္</string>
+    <string name="implict_intent">Implicit Intent Assignment</string>
+
+    <string name="msg_enter_email">အီးေမးလ္လိပ္စာ</string>
+    <string name="msg_enter_password">လ်ိဳ႕၀ွက္စာလံုး</string>
+    <string name="forgot_password">လ်ိဳ႕၀ွက္စာလံုးေမ့ေနပါသလား</string>
+    <string name="error_missing_email_login">အီးမေးလ်လိပ်စာ မဖြစ်မနေထည့်ပေးပါ ...</string>
+    <string name="error_missing_password_login">လျို့ဝှက်စာလုံး မဖြစ်မနေထည့်ပေးပါ ...</string>
+    <string name="error_email_is_not_valid">အီးမေးလ်လိပ်စာ မမှန်သေးပါ ...</string>
+
+    <string name="email">အီးေမးလ္လိပ္စာ</string>
+    <string name="password">လ်ိဳ႕၀ွက္စာလံုး</string>
+    <string name="msg_enter_username">User နာမည္</string>
+    <string name="msg_enter_login_password">အေကာင့္၀င္ရန္ လ်ိဳ႕၀ွက္စာလံုး</string>
+    <string name="msg_enter_phone">ဖုန္းနံပါတ္</string>
+    <string name="msg_date_of_birth">ေမြးေန႕</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="user_agreement">I agree to Terms and Conditions.</string>
+    <string name="notify_me">Notify me for Update Info.</string>
+
+    <string-array name="current_sellertype">
+        <item>Private Seller</item>
+        <item>Dealer</item>
+        <item>Showroom Seller</item>
+        <item>Buyer</item>
+    </string-array>
+
 </resources>
