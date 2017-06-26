@@ -1,6 +1,13 @@
 # PADC2-Week1-Login-Register
 This is PADC2.0 Week1 Assignment. Domain is CarPweSar. It contains Login Screen and Register Screen.
 
+Registration & Login Assignment
+
+Choose a domain for a mobile app. And Create an android app that has two screens. Registration Screen & Login Screen which would be suitable for the chosen domain.
+(1) Registration screen has to use the following 6 input receiving widgets.
+- EditText, RadioButton, Checkbox, ToggleButton, Spinner, Picker (Date, Time)
+(2) Registration screen & Login screen has to be connected with some sort of navigation.
+
 ![01 home screen](https://user-images.githubusercontent.com/5194798/26944337-301c134c-4c3d-11e7-9099-9b537941492b.jpg)
 ![02 login screen](https://user-images.githubusercontent.com/5194798/26944338-3025c1d0-4c3d-11e7-85f9-c9c3c8edf8ed.jpg)
 ![03 login screen](https://user-images.githubusercontent.com/5194798/26944339-302a6550-4c3d-11e7-9cbc-c2b8a2cfd170.jpg)
