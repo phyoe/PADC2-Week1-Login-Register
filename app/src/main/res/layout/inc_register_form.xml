@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_large">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_carpwesar_logo_small" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMEditText
+        android:id="@+id/et_username"
+        style="@style/MMEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorAccent"
+        android:hint="@string/msg_enter_username"
+        android:inputType="text" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMEditText
+        android:id="@+id/et_login_password"
+        style="@style/MMEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorAccent"
+        android:hint="@string/msg_enter_login_password"
+        android:inputType="textPassword" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMEditText
+        android:id="@+id/et_phone"
+        style="@style/MMEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorAccent"
+        android:hint="@string/msg_enter_phone"
+        android:inputType="phone" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMEditText
+        android:id="@+id/et_email"
+        style="@style/MMEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorAccent"
+        android:hint="@string/msg_enter_email"
+        android:inputType="textEmailAddress" />
+
+    <Spinner
+        android:id="@+id/sp_sellertype_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:backgroundTint="?attr/colorAccent" />
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMTextView
+        android:id="@+id/tv_date_of_birth"
+        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:hint="@string/msg_date_of_birth"
+        android:maxLines="1"
+        android:padding="@dimen/margin_medium"
+        android:singleLine="true"
+        android:textColor="@color/black_full"
+        android:textColorHint="@color/accent_dark"
+        android:textSize="@dimen/textsize_normal" />
+
+    <RadioGroup
+        android:id="@+id/radio_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notify_me" />
+
+        <ToggleButton
+            android:id="@+id/toogle_notify_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:textOff="Off"
+            android:textOn="On" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chk_user_agreements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:text="@string/user_agreement" />
+
+
+    <xyz.phyoekhant.padc2_week1_login_register.components.MMButton
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium_2"
+        android:layout_marginRight="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:text="@string/register" />
+
+</LinearLayout>
